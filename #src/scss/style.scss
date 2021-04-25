@@ -1,0 +1,19 @@
+@import "./components/mixin";
+@import "./components/fonts";
+@import "./components/var";
+
+@import "./global/nullstyle";
+body {
+    background-color: $cWhite;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: $fontFamily, sans-serif;
+    font-weight: 400;
+    color: $cWhite;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+  }
+
+@import "./global/header";
+// @import "./pages/"
+@import "./global/footer"
